@@ -1,0 +1,34 @@
+name: flutter_qr_maker
+description: A comprehensive QR code generator application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core QR generation (rendering widgets)
+  qr_flutter: ^4.1.0
+  # Raw QR data logic (for SVG generation)
+  qr: ^3.0.1
+  # For picking colors
+  flutter_colorpicker: ^1.0.3
+  # For sharing/saving files cross-platform
+  share_plus: ^9.0.0
+  # For accessing temporary directories
+  path_provider: ^2.1.1
+  image_picker: ^1.2.1
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+  universal_html: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
